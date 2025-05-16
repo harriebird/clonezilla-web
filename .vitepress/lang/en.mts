@@ -6,7 +6,12 @@ export const enConfig =  {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/docs/' }
-    ]
+      { text: 'Docs', link: '/docs/' },
+      { text: 'About', link: '/about/' }
+    ],
+    footer: {
+      message: 'From Taiwan to the World.',
+      copyright: 'Free Software Lab, NCHC (National Center for High-Performance Computing)'
+    }
   }
 }

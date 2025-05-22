@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import lightbox from 'vitepress-plugin-lightbox'
 
 import { enConfig, zhTwConfig } from "./lang/configs.mjs";
 
@@ -29,5 +30,15 @@ export default defineConfig({
     root: enConfig,
     'zh-tw': zhTwConfig,
   },
+
+  markdown: {
+    image: {
+      lazyLoading: true,
+    },
+    config: (md) => {
+      md.use(lightbox, {})
+    }
+  },
+
   srcDir: 'src'
 })

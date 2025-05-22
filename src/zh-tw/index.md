@@ -14,7 +14,7 @@ hero:
       text: Clonezilla 文檔
       link: /zh-tw/docs
   image:
-    src: /images/clonezilla-logo.png
+    src: /images/clonezilla-logo.webp
     alt: Clonezilla logo
 
 features:

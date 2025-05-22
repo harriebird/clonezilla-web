@@ -14,7 +14,7 @@ hero:
       text: Read the Docs
       link: /docs
   image:
-    src: /images/clonezilla-logo.png
+    src: /images/clonezilla-logo.webp
     alt: Clonezilla logo
 
 features:

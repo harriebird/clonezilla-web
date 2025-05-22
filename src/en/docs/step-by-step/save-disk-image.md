@@ -1,8 +1,6 @@
 # Save disk image
 Save 1st disk (sda) as an image on 2nd disk (sdb) (Step by step)
 
-[[toc]]
-
 ## Boot the machine via Clonezilla live
 In this example, the machine has 2 disks, 1st disk's name is sda (device name in GNU/Linux), 2nd disk's device name is sdb. The size of disk sda is 20 GB with Debian Bookworm (version 12) installed. There are 4 partitons (sda1, sda2, sda3 and sda4) with file systems on disk sda as shown in the following:
 

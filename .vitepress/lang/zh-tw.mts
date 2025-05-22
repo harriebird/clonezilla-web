@@ -1,4 +1,4 @@
-let lang = 'zh-tw'
+const lang = 'zh-tw'
 export const zhTwConfig =  {
   label: '繁體中文',
   lang: lang,

@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: 'Clonezilla'
-  text: 'The Free and Open Source Software for Disk Imaging and Cloning.'
-  tagline: 'Clonezilla is a partition and disk imaging/cloning program similar to True Image® or Norton Ghost®. It helps you to do system deployment, bare metal backup and recovery.'
+  name: "Clonezilla"
+  text: "The Free and Open Source Software for Disk Imaging and Cloning."
+  tagline: "Clonezilla is a partition and disk imaging/cloning program similar to True Image® or Norton Ghost®. It helps you to do system deployment, bare metal backup and recovery."
   actions:
     - theme: brand
       text: Use Clonezilla
       link: /download.md
     - theme: alt
       text: Read the Docs
-      link: /docs
+      link: /docs/index.md
   image:
     src: /images/clonezilla-logo.webp
     alt: Clonezilla logo
@@ -25,4 +25,3 @@ features:
   - title: Secure
     details: "Image could be encrypted. This is done with ecryptfs, a POSIX-compliant enterprise cryptographic stacked filesystem. AES-256 encryption could be used to secures data access, storage and transfer."
 ---
-

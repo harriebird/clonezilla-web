@@ -22,7 +22,9 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*": "eslint --no-warn-ignored --fix",
-    "**/*": "prettier --write --ignore-unknown"
+    "*": [
+      "eslint --no-warn-ignored --fix",
+      "prettier --write --ignore-unknown"
+    ]
   }
 }

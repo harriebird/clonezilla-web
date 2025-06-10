@@ -122,9 +122,7 @@ If you want to change keymap, you can choose `Change` then follow the dialog to 
 
 Pay attention to the hints, too. You might need that:
 
-<!-- eslint-disable-next-line markdown/no-missing-label-refs -- GitHub alerts -->
-
-> [!INFO] Hint
+> [!INFO] Hint <!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 > From now on, if multiple choices are available, you have to press space key to mark your selection. A star sign (`*`) will be shown when the selection is done.
 
 ## Choose `local_dev` option to assign sdb1 as the image home
@@ -159,9 +157,7 @@ Once you are sure the directory is what you want, press `TAB` key to the `Done` 
 
 If you are not familiar with the disk or partition name in GNU/Linux, read the hints:
 
-<!-- eslint-disable-next-line markdown/no-missing-label-refs -- GitHub alerts -->
-
-> [!INFO] Tip
+> [!INFO] Tip <!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 > The partition name is the device name in GNU/Linux. The first partition in the first disk is `sda1`, the 2nd partition in the first disk is `sda2`, the first partition in the second disk is `sdb1` or `sdb1`... If the system you want to save is MS Windows, normally C: is sda1, and D: could be sda2, or sda5...
 
 Then Clonezilla shows you the disk usage report:
@@ -195,12 +191,10 @@ If the destination disk is smaller than the source disk, if using beginner mode,
 
 If you are sure all the data from the image could fit the smaller disk, i.e. it won't be written to the wrong disk space, you can check the option `-icds`.
 
-<!-- eslint-disable-next-line markdown/no-missing-label-refs -- GitHub alerts -->
-
-> [!WARNING] Warning
+> [!WARNING] Warning <!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 > To select this option, you have to know what you are doing!
 
-** ISSUE: FAQ/Q&A link missing **
+**ISSUE: FAQ/Q&A link missing**
 
 For more details about the advanced parameters of Clonezilla live, you can also check this [FAQ/Q&A](http://drbl.org/faq/fine-print.php?path=./2_System/88_mbr_related_options.faq#88_mbr_related_options.faq).
 :::
@@ -285,7 +279,7 @@ Then you can choose to:
 
 Here we choose Poweroff, and it will countdown 7 secs:
 
-** ISSUE: 403 Image **
+**ISSUE: 403 Image**
 
 ```text
 https://clonezilla.org/clonezilla-live/doc/02_Restore_disk_image/images/ocs-11-5-img-restore-done-choose-poweroff-progress.png

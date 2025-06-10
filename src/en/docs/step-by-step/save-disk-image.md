@@ -8,7 +8,8 @@ In this example, the machine has 2 disks, 1st disk's name is sda (device name in
 
 ![GParted window](./images/save-disk-image/disk-sda.png)
 
-** ISSUE: Link missing **
+**ISSUE: Link missing**
+
 Before taking an image of your system, you have to make sure the running OS is completely shut down. Not in hibernation mode or fastboot mode. As for how to disable fastboot in MS Windows, you can refer to [this](https://drbl.org/faq/fine-print.php?path=./2_System/132_turn_off_win_fastboot.faq#132_turn_off_win_fastboot.faq).
 
 Once you have the bootable Clonezilla Live CD/DVD or USB flash drive, you can boot the machine you want to clone via Clonezilla live. **Remember to use the Clonezilla live CD or USB flash drive to boot the machine**. For example, if you have Clonezilla Live in USB flash drive, you have to boot it via USB device (Ex. USB-HDD or USB-ZIP). If necessary, you can set the first boot priority in the BIOS as USB-HDD or USB-ZIP so that it can boot Clonezilla Live from your USB flash drive.
@@ -82,9 +83,7 @@ If you want to change keymap, you can choose `Change` then follow the dialog to 
 
 Pay attention to the hints, too. You might need that:
 
-<!-- eslint-disable-next-line markdown/no-missing-label-refs -- GitHub alerts -->
-
-> [!INFO] Hint
+> [!INFO] Hint <!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 > From now on, if multiple choices are available, you have to press space key to mark your selection. A star sign (`*`) will be shown when the selection is done.
 
 ## Choose `local_dev` option to assign sdb1 as the image home
@@ -119,9 +118,7 @@ Once you are sure the directory is what you want, press `TAB` key to the `Done` 
 
 If you are not familiar with the disk or partition name in GNU/Linux, read the hints:
 
-<!-- eslint-disable-next-line markdown/no-missing-label-refs -- GitHub alerts -->
-
-> [!INFO] Tip
+> [!INFO] Tip <!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 > The partition name is the device name in GNU/Linux. The first partition in the first disk is `sda1`, the 2nd partition in the first disk is `sda2`, the first partition in the second disk is `sdb1` or `sdb1`... If the system you want to save is MS Windows, normally C: is sda1, and D: could be sda2, or sda5...
 
 Then Clonezilla shows you the disk usage report:
@@ -190,9 +187,7 @@ Select if you want to encrypt the image:
 
 By default the image won't be encrypted. If you want to encrypt the image, it will prompt you to enter a passphrase for the image.
 
-<!-- eslint-disable-next-line markdown/no-missing-label-refs -- GitHub alerts -->
-
-> [!NOTE]
+> [!NOTE] <!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 > You have to remember the passphrase otherwise the image will _NOT_ be useable in the future. There is no back door to decrypt the image.
 
 Select the mode you want after the image saving is done:

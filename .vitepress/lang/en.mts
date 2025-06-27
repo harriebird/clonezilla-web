@@ -7,8 +7,9 @@ export const enConfig = {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "Docs", link: "/docs/index.md" },
+      { text: "Download", link: "/download.md" },
       { text: "About", link: "/about.md" },
+      { text: "Docs", link: "/docs/index.md" },
     ],
 
     sidebar: {
@@ -30,8 +31,14 @@ export const enConfig = {
               text: "Restore disk image",
               link: "/docs/step-by-step/restore-disk-image.md",
             },
-            { text: "Disk to disk clone", link: "#" },
-            { text: "One image to multiple disks", link: "#" },
+            {
+              text: "Disk to disk clone",
+              link: "/docs/step-by-step/disk-to-disk-clone.md",
+            },
+            {
+              text: "One image to multiple disks",
+              link: "/docs/step-by-step/one-image-to-multiple-disks.md",
+            },
             { text: "Create Recovery Clonezilla", link: "#" },
             { text: "Preseed options to do job after booting", link: "#" },
             { text: "Started with sshd on and passwd assigned", link: "#" },

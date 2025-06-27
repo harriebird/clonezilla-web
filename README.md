@@ -37,7 +37,7 @@ Website for Clonezilla using [VitePress](https://vitepress.dev/).
 
 ### Ignore ESLint on some false-positive errors
 
-ESLint helps quickly pinpoint problems in the code. This project currently uses ESLint for CSS, TS/JS, and
+ESLint helps to quickly pinpoint problems in the code. This project currently uses ESLint for CSS, TS/JS, and
 Markdown files in the project. By default, ESLint is activated as a pre-commit task with the help of husky. ESLint is
 undeniably helpful to have, but there are some instances that it should be disabled for some lines of code that are
 detected as false-positives.
@@ -46,18 +46,17 @@ detected as false-positives.
 
 The use of [GitHub style alerts](https://vitepress.dev/guide/markdown#github-flavored-alerts) gives emphasis to
 information, tips, warnings, etc. Currently, ESLint flags Markdown GitHub alert code as an error relating to
-`markdown/no-missing-label-refs` rule. You can disable ESLint in the next line using the code below:
+`markdown/no-missing-label-refs` rule. You can disable ESLint false-positive detection by adding the code below
+to the line where the GitHub alert is starting:
 
 ```text
-<!-- eslint-disable-next-line markdown/no-missing-label-refs -- GitHub alerts -->
+<!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 ```
 
 For example:
 
 ```markdown
-<!-- eslint-disable-next-line markdown/no-missing-label-refs -- GitHub alerts -->
-
-> [!INFO] Title here
+> [!INFO] Title here <!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 > Content here
 ```
 

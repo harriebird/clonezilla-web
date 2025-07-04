@@ -52,20 +52,21 @@ Clone small disk to larger disk (e.g. 20 GB to 60 GB) (Step by step)
 
 Restore an image to multiple disks, e.g. massive production of live USB flash drives.
 
-1. Boot the machine via Clonezilla live
-2. The boot menu of Clonezilla live
-3. The boot menu of Clonezilla live
-4. Here we choose 800x600 mode, after pressing Enter, you will see Debian Linux booting process
-5. Choose language
-6. Choose keyboard layout
-7. Choose `Start Clonezilla`
-8. Choose `device-image` option
-9. Choose `local_dev` option to assign sde1 as the image home
-10. Select sde1 as image repository, then choose `1-2-mdisks` option
-11. Select image name and destination disk
-12. Clonezilla is restoring disk image on disk sde to sda, sdc, and sdd.
+1. [Boot the machine via Clonezilla live](./one-image-to-multiple-disks.md#boot-the-machine-via-clonezilla-live)
+2. [The boot menu of Clonezilla live](./one-image-to-multiple-disks.md#the-boot-menu-of-clonezilla-live)
+3. [Here we choose 800x600 mode, after pressing Enter, you will see Debian Linux booting process](./one-image-to-multiple-disks.md#here-we-choose-800x600-mode-after-pressing-enter-you-will-see-debian-linux-booting-process)3
+4. [Choose language](./one-image-to-multiple-disks.md#choose-language)
+5. [Choose keyboard layout](./one-image-to-multiple-disks.md#choose-keyboard-layout)
+6. [Choose `Start Clonezilla`](./one-image-to-multiple-disks.md#choose-start-clonezilla)
+7. [Choose `device-image` option](./one-image-to-multiple-disks.md#choose-device-image-option)
+8. [Choose `local_dev` option to assign sde1 as the image home](./one-image-to-multiple-disks.md#choose-local-dev-option-to-assign-sde1-as-the-image-home)
+9. [Select sde1 as image repository, then choose `1-2-mdisks` option](./one-image-to-multiple-disks.md#select-sde1-as-image-repository-then-choose-1-2-mdisks-option)
+10. [Select image name and destination disk](./one-image-to-multiple-disks.md#select-image-name-and-destination-disk)
+11. [Clonezilla is restoring disk image on disk sde to sda, sdc, and sdd](./one-image-to-multiple-disks.md#clonezilla-is-restoring-disk-image-on-disk-sde-to-sda-sdc-and-sdd)
 
-## Create Recovery Clonezilla
+## [Create Recovery Clonezilla](./create-recovery-clonezilla.md)
+
+Create an autorun recovery Clonezilla live CD or USB flash drive (Step by step)
 
 1. Boot the machine via Clonezilla live
 2. The boot menu of Clonezilla live

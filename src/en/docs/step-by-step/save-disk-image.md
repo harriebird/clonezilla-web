@@ -139,14 +139,14 @@ If you choose `Expert` mode, you will have some chances to choose advanced param
 
 ### The advanced parameters for saving mode
 
-::: details The advanced parameters for saving mode
+::: details Click to view the content
 Select advanced parameters
 
 Here we use the default imaging program option `-q2`, since partclone supports more file systems, e.g. HFS+ (Mac OS), reiser4 and ext4.
 
 ![Select q2 imaging program](./images/save-disk-image/ocs-09-advanced-param-q.png)
 
-Then keep the default extra parameters, just press enter here:
+Then keep the default extra parameters, just press `enter` here:
 
 ![Select extra parameters](./images/save-disk-image/ocs-09-advanced-param-extra.png)
 

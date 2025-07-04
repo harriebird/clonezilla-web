@@ -39,7 +39,10 @@ export const enConfig = {
               text: "One image to multiple disks",
               link: "/docs/step-by-step/one-image-to-multiple-disks.md",
             },
-            { text: "Create Recovery Clonezilla", link: "#" },
+            {
+              text: "Create Recovery Clonezilla",
+              link: "/docs/step-by-step/create-recovery-clonezilla.md",
+            },
             { text: "Preseed options to do job after booting", link: "#" },
             { text: "Started with sshd on and passwd assigned", link: "#" },
             { text: "Add extra driver", link: "#" },

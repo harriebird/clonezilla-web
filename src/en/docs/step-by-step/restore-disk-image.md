@@ -172,10 +172,10 @@ If you choose `Expert` mode, you will have some chances to choose advanced param
 
 ### The advanced parameters for restoring mode
 
-::: details The advanced parameters for saving mode
+::: details Click to view the content
 Select advanced parameters
 
-Choose the extra parameters you want. Here we just press enter to accept the default settings:
+Choose the extra parameters you want. Here we just press `enter` to accept the default settings:
 
 ![Accept default selected settings](./images/restore-disk-image/ocs-09-advanced-param-extra.png)
 

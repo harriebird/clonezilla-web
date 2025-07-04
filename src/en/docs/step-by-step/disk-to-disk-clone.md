@@ -58,7 +58,30 @@ Choose `Beginner`
 
 ![Choose Beginner](./images/disk-to-disk-clone/ocs-05-3-beginner-expert-mode.png)
 
-If you choose `Expert` mode, you will have some chances to choose advanced parameters, e.g. tune the CHS values of target disk, how to create partition table on the target disk, etc.. You can see more details here.
+If you choose `Expert` mode, you will have some chances to choose advanced parameters, e.g. tune the CHS values of target disk, how to create partition table on the target disk, etc.. You can see more details [here](#the-advanced-parameters-for-disk-cloning).
+
+### The advanced parameters for disk cloning
+
+::: details Click to view the content
+Select advanced parameters
+If you choose `Expert` mode:
+
+![Expert mode](./images/disk-to-disk-clone/ocs-05-b-1-expert-mode.png)
+
+Then you will have chances to choose the extra parameters you want. Here we just press `enter` to accept the default settings:
+
+![Expert mode advanced parameters](./images/disk-to-disk-clone/ocs-05-b-2-expert-param-extra.png)
+
+Choose the option `-k0` (Use the partition table from image)
+
+![Select k0 option](./images/disk-to-disk-clone/ocs-05-b-3-expert-param-k.png)
+
+If the target disk size is larger than the source disk, you can try to use option `-k1` which will create the partition table proportionally in the target disk and turn on option `-r` to resize the file system in the partition automatically. This is useful to make use all of the target disk size.
+
+**ISSUE: FAQ/Q&A link missing**
+
+For more details about the advanced parameters of Clonezilla live, please check this [FAQ/Q&A](http://drbl.org/faq/fine-print.php?path=./2_System/88_mbr_related_options.faq#88_mbr_related_options.faq).
+:::
 
 > [!INFO] Note<!-- eslint-disable-line markdown/no-missing-label-refs -- GitHub alerts -->
 > By default, Clonezilla will clone the `same` size of data from source to target disk. i.e. in this example, only 8 GB data will be cloned to the target disk. The remaining 12 GB on the source disk and the remaining 52 GB on the destination disk will not be read from or written to. If you want to make use all of the target disk size, remember to choose option `-k1` no matter in beginner or expert mode.

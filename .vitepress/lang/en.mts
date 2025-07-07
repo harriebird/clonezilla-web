@@ -43,8 +43,14 @@ export const enConfig = {
               text: "Create Recovery Clonezilla",
               link: "/docs/step-by-step/create-recovery-clonezilla.md",
             },
-            { text: "Preseed options to do job after booting", link: "#" },
-            { text: "Started with sshd on and passwd assigned", link: "#" },
+            {
+              text: "Preseed options to do job after booting",
+              link: "/docs/step-by-step/preseed-options-to-do-job-after-booting.md",
+            },
+            {
+              text: "Started with sshd on and passwd assigned",
+              link: "/docs/step-by-step/started-with-sshd-on-and-passwd-assigned.md",
+            },
             { text: "Add extra driver", link: "#" },
             { text: "Customized script with PXE", link: "#" },
             { text: "Screen session with PXE", link: "#" },

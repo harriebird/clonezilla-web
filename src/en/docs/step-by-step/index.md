@@ -68,23 +68,27 @@ Restore an image to multiple disks, e.g. massive production of live USB flash dr
 
 Create an autorun recovery Clonezilla live CD or USB flash drive (Step by step)
 
-1. Boot the machine via Clonezilla live
-2. The boot menu of Clonezilla live
-3. Here we choose 800x600 mode, after pressing Enter, you will see Debian Linux booting process:
-4. Choose language
-5. Choose keyboard layout
-6. Choose `Start Clonezilla`
-7. Choose `device-image` option
-8. Choose `local_dev` option to assign sdb1 as the image home
-9. Select sdb1 as image repository, then choose `restoredisk` option
-10. Choose the image you want to include in the recovery CD or USB flash drive:
+1. [Boot the machine via Clonezilla live](./create-recovery-clonezilla.md#boot-the-machine-via-clonezilla-live)
+2. [The boot menu of Clonezilla live](./create-recovery-clonezilla.md#the-boot-menu-of-clonezilla-live)
+3. [Here we choose 800x600 mode, after pressing Enter, you will see Debian Linux booting process:](./create-recovery-clonezilla.md#here-we-choose-800x600-mode-after-pressing-enter-you-will-see-debian-linux-booting-process)
+4. [Choose language](./create-recovery-clonezilla.md#choose-language)
+5. [Choose keyboard layout](./create-recovery-clonezilla.md#choose-keyboard-layout)
+6. [Choose `Start Clonezilla`](./create-recovery-clonezilla.md#choose-start-clonezilla)
+7. [Choose `device-image` option](./create-recovery-clonezilla.md#choose-device-image-option)
+8. [Choose `local_dev` option to assign sdb1 as the image home](./create-recovery-clonezilla.md#choose-local-dev-option-to-assign-sdb1-as-the-image-home)
+9. [Select sdb1 as image repository, then choose `restoredisk` option](./create-recovery-clonezilla.md#select-sdb1-as-image-repository-then-choose-restoredisk-option)
+10. [Choose the image you want to include in the recovery CD or USB flash drive:](./create-recovery-clonezilla.md#choose-the-image-you-want-to-include-in-the-recovery-cd-or-usb-flash-drive)
 
-## Preseed options to do job after booting
+## [Preseed options to do job after booting](./preseed-options-to-do-job-after-booting.md)
 
-1. The scenario
-2. The options to be preseeded
+Start Clonezilla live with sshd service on and password assigned
+
+1. [The scenario](./preseed-options-to-do-job-after-booting.md#the-scenario)
+2. [The options to be preseeded](./preseed-options-to-do-job-after-booting.md#the-options-to-be-preseeded)
 
 ## Started with sshd on and passwd assigned
+
+Run unattended Clonezilla live via PXE or CD booting and the process can be remotely monitored
 
 1. A PXE config example for you to boot Clonezilla live via PXE, and ssh service is on, the password of account `user` is assigned
 

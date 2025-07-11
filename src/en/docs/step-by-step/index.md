@@ -86,63 +86,81 @@ Start Clonezilla live with sshd service on and password assigned
 1. [The scenario](./preseed-options-to-do-job-after-booting.md#the-scenario)
 2. [The options to be preseeded](./preseed-options-to-do-job-after-booting.md#the-options-to-be-preseeded)
 
-## Started with sshd on and passwd assigned
+## [Started with sshd on and passwd assigned](./started-with-sshd-on-and-passwd-assigned.md)
 
 Run unattended Clonezilla live via PXE or CD booting and the process can be remotely monitored
 
-1. A PXE config example for you to boot Clonezilla live via PXE, and ssh service is on, the password of account `user` is assigned
+1. [A PXE config example for you to boot Clonezilla live via PXE, and ssh service is on, the password of account `user` is assigned](./started-with-sshd-on-and-passwd-assigned.md#a-pxe-config-example-for-you-to-boot-clonezilla-live-via-pxe-and-ssh-service-is-on-the-password-of-account-user-is-assigned)
 
-## Add extra driver
+## [Add extra driver](./add-extra-driver.md)
 
-1. How to put your own binary driver in Clonezilla live without modifying /live/filesystem.squashfs
+How to put your own binary driver in Clonezilla live without modifying /live/filesystem.squashfs
 
-## Customized script with PXE
+1. [How to put your own binary driver in Clonezilla live without modifying /live/filesystem.squashfs](./add-extra-driver.md#how-to-put-your-own-binary-driver-in-clonezilla-live-without-modifying-live-filesystem-squashfs)
 
-1. To put your customized script with a PXE version of Clonezilla live
+## [Customized script with PXE](./customized-script-with-pxe.md)
 
-## Screen session with PXE
+Use customized script with a PXE version of Clonezilla live
 
-1. Run Clonezilla in screen session so you can access remotely to monitor the progress.
+1. [To put your customized script with a PXE version of Clonezilla live](./customized-script-with-pxe.md#to-put-your-customized-script-with-a-pxe-version-of-clonezilla-live)
 
-## Burn Clonezilla live CD
+## [Screen session with PXE](./screen-session-with-pxe.md)
 
-1. Create Clonezilla live CD by InfraRecorder
+Run unattended Clonezilla live via PXE booting and the process can be remotely monitored
 
-## LinuxLive USB creator
+1. [Run Clonezilla in screen session so you can access remotely to monitor the progress](./screen-session-with-pxe.md#run-clonezilla-in-screen-session-so-you-can-access-remotely-to-monitor-the-progress)
 
-1. Create Clonezilla live USB flash drive by LinuxLive USB creator
+## [Burn Clonezilla live CD](./burn-clonezilla-live-cd.md)
 
-## lite server
+Create Clonezilla live CD by InfraRecorder
 
-1. Boot the machine via Clonezilla live
-2. The boot menu of Clonezilla live
-3. Here we choose 800x600 mode, after pressing Enter, you will see Debian Linux booting process
-4. Choose language
-5. Choose keyboard layout
-6. Choose `Start Clonezilla`
-7. Choose `lite-server` option
-8. Now we have to mount the image repository.
-9. Select sdb1 as image repository, then choose `restoredisk` option
-10. Select image name and destination disk
+1. [Create Clonezilla live CD by InfraRecorder](./burn-clonezilla-live-cd.md#create-clonezilla-live-cd-by-infrarecorder)
 
-## lite server BT from dev
+## [LinuxLive USB creator](./linuxlive-usb-creator.md)
 
-1. Boot the machine via Clonezilla live
-2. The boot menu of Clonezilla live
-3. Here we choose 800x600 mode, after pressing Enter, you will see Debian Linux booting process
-4. Choose language
-5. Choose keyboard layout
-6. Choose `Start Clonezilla`
-7. Choose `lite-server` option
-8. Mount the image repository.
-9. Choose the massive deployment mode using BT from raw device mode.
-10. Select source disk.
+Create Clonezilla live USB flash drive by LinuxLive USB creator
 
-## ocs related command manpages
+1. [Create Clonezilla live USB flash drive by LinuxLive USB creator](./linuxlive-usb-creator.md#create-clonezilla-live-usb-flash-drive-by-linuxlive-usb-creator)
 
-1. Man page of ocs-sr
-2. Man page of ocs-onthefly
+## [lite server](./lite-server.md)
 
-## Misc
+Run a Clonezilla lite server to do massive deployment from an image via multicast mechanism
 
-1. The boot parameters for Clonezilla live
+1. [Boot the machine via Clonezilla live](./lite-server.md#boot-the-machine-via-clonezilla-live)
+2. [The boot menu of Clonezilla live](./lite-server.md#the-boot-menu-of-clonezilla-live)
+3. [Here we choose 800x600 mode, after pressing Enter, you will see Debian Linux booting process](./lite-server.md#here-we-choose-800x600-mode-after-pressing-enter-you-will-see-debian-linux-booting-process)
+4. [Choose language](./lite-server.md#choose-language)
+5. [Choose keyboard layout](./lite-server.md#choose-keyboard-layout)
+6. [Choose `Start Clonezilla`](./lite-server.md#choose-start-clonezilla)
+7. [Choose `lite-server` option](./lite-server.md#choose-lite-server-option)
+8. [Now we have to mount the image repository.](./lite-server.md#now-we-have-to-mount-the-image-repository)
+9. [Select sdb1 as image repository, then choose `restoredisk` option](./lite-server.md#select-sdb1-as-image-repository-then-choose-restoredisk-option)
+10. [Select image name and destination disk](./lite-server.md#select-image-name-and-destination-disk)
+
+## [lite server BT from dev](./lite-server-bt-from-dev.md)
+
+Run a Clonezilla lite server to do massive deployment from raw device via bittorrent mechanism
+
+1. [Boot the machine via Clonezilla live](./lite-server-bt-from-dev.md#boot-the-machine-via-clonezilla-live)
+2. [The boot menu of Clonezilla live](./lite-server-bt-from-dev.md#the-boot-menu-of-clonezilla-live)
+3. [Here we choose 800x600 mode, after pressing Enter, you will see Debian Linux booting process](./lite-server-bt-from-dev.md#here-we-choose-800x600-mode-after-pressing-enter-you-will-see-debian-linux-booting-process)
+4. [Choose language](./lite-server-bt-from-dev.md#choose-language)
+5. [Choose keyboard layout](./lite-server-bt-from-dev.md#choose-keyboard-layout)
+6. [Choose `Start Clonezilla`](./lite-server-bt-from-dev.md#choose-start-clonezilla)
+7. [Choose `lite-server` option](./lite-server-bt-from-dev.md#choose-lite-server-option)
+8. [Mount the image repository.](./lite-server-bt-from-dev.md#mount-the-image-repository)
+9. [Choose the massive deployment mode using BT from raw device mode.](./lite-server-bt-from-dev.md#choose-the-massive-deployment-mode-using-bt-from-raw-device-mode)
+10. [Select source disk.](./lite-server-bt-from-dev.md#select-source-disk)
+
+## [ocs related command manpages](./ocs-related-command-manpages.md)
+
+Manual pages about Clonezilla related commands
+
+1. [Man page of ocs-sr](./ocs-related-command-manpages.md#man-page-of-ocs-sr)
+2. [Man page of ocs-onthefly](./ocs-related-command-manpages.md#man-page-of-ocs-onthefly)
+
+## [Misc](./misc.md)
+
+Misc doc
+
+1. [The boot parameters for Clonezilla live](./misc.md#the-boot-parameters-for-clonezilla-live)

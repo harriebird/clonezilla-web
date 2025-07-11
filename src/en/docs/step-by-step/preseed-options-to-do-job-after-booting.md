@@ -4,17 +4,13 @@ Start Clonezilla live with sshd service on and password assigned
 
 ## The scenario
 
-**ISSUE: Update to Clonezilla live boot parameters link**
-
-By modifying the boot parameters in [syslinux.cfg, isolinux.cfg or grub.cfg](https://clonezilla.org//fine-print-live-doc.php?path=clonezilla-live/doc/99_Misc/00_live-boot-parameters.doc), you can preseed most of the options so that Clonezilla live can do the job for you with less interactive steps, or it's possible to make it run in an unattended mode.
+By modifying the boot parameters in [syslinux.cfg, isolinux.cfg or grub.cfg](./misc.md#the-boot-parameters-for-clonezilla-live), you can preseed most of the options so that Clonezilla live can do the job for you with less interactive steps, or it's possible to make it run in an unattended mode.
 
 In this example, we want to preseed the language, keymap, mounting the image repository, then choose the image of partition, and restore it to the partition.
 
 ## The options to be preseeded
 
-**ISSUE: Update to Clonezilla live boot parameters link**
-
-By refering to [the doc about the boot parameters of Clonezilla live](https://clonezilla.org//fine-print-live-doc.php?path=clonezilla-live/doc/99_Misc/00_live-boot-parameters.doc), the options we want to preseed are:
+By refering to [the doc about the boot parameters of Clonezilla live](./misc.md#the-boot-parameters-for-clonezilla-live), the options we want to preseed are:
 
 1. Preseed the language as English:
    - locales=en_US.UTF-8

@@ -16,7 +16,7 @@ high-end hardware in a 42-node cluster, a multicast restoring at rate 8 GB/min w
 - **LUKS** (Linux Unified Key Setup) is supported.
 - Bootloader, including grub (version 1 and **version 2**) and syslinux, could be reinstalled.
 - Both [MBR](https://en.wikipedia.org/wiki/Master_boot_record) and [GPT](https://en.wikipedia.org/wiki/GUID_Partition_Table) partition formats of hard drive are supported. Clonezilla live also can be booted on a [BIOS](https://en.wikipedia.org/wiki/BIOS) or [uEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) machine.
-- Unattended mode is supported. Almost all steps can be done via commands and options. You can also use [a lot of boot parameters](https://clonezilla.org/fine-print-live-doc.php?path=clonezilla-live/doc/99_Misc/00_live-boot-parameters.doc) to customize your own imaging and cloning.
+- Unattended mode is supported. Almost all steps can be done via commands and options. You can also use [a lot of boot parameters](./step-by-step/misc.md#the-boot-parameters-for-clonezilla-live) to customize your own imaging and cloning.
 - One image restoring to multiple local devices is supported.
 - Image could be encrypted. This is done with [ecryptfs](https://ecryptfs.org/), a POSIX-compliant enterprise cryptographic stacked filesystem.
 - **Multicast** is supported in Clonezilla SE, which is suitable for massive clone. You can also remotely use it to save or restore a bunch of computers if PXE and Wake-on-LAN are supported in your clients.

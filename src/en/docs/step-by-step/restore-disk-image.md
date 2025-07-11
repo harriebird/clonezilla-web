@@ -55,10 +55,6 @@ Here we take CD as an example, and this machine will boot in [uEFI mode](https:/
 
 Or by pressing a hotkey (e.g., Esc, F8, F9 or maybe F12) when you boot the machine, you will see the boot menu of BIOS like this:
 
-![Change boot order](./images/restore-disk-image/ocs-00-boot-dev-priority-bios.png)
-
-Or by pressing a hotkey (e.g., Esc, F8, F9 or maybe F12) when you boot the machine, you will see the boot menu of BIOS like this:
-
 ![Boot manager](./images/restore-disk-image/ocs-00-boot-dev-priority-hotkey.png)
 
 Check your motherboard manual for more details about how to boot your machine via CD.
@@ -70,6 +66,7 @@ Here is a screenshot of Clonezilla Live boot menu:
 ![Boot menu](./images/restore-disk-image/ocs-01-bootmenu.png)
 
 The first one is the default mode for Clonezilla Live. It will default to framebuffer mode with a resolution of 800x600.
+
 The 2nd one `(VGA 800x600 & To RAM)`, is the same function with the 1st one except when Clonezilla live booting finishes, all the necessary files are copied to memory. Therefore you can remove the boot media (CD or USB flash drive) then. In addition to use the arrow key to choose, you can also press `r` to choose that.
 
 The 3rd one `(VGA with large font & To RAM)` is for you to use large font, especially when you have 4K monitor, and it will all the necessary files will be copied to memory. In addition to use the arrow key to choose, you can also press `l` to choose that.
@@ -181,7 +178,7 @@ Choose the extra parameters you want. Here we just press `enter` to accept the d
 
 Choose the option `-k0` (Use the partition table from the image)
 
-![Select ko option](./images/restore-disk-image/ocs-09-advanced-param-k.png)
+![Select k0 option](./images/restore-disk-image/ocs-09-advanced-param-k.png)
 
 If the target disk size is larger than the size of source disk of image, you can try to use option `-k1` which will create the partition table proportionally in the target disk and turn on option `-r` to resize the file file system in the partition automatically. This is useful to make use all of the target disk size.
 

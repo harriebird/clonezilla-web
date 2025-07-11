@@ -51,15 +51,42 @@ export const enConfig = {
               text: "Started with sshd on and passwd assigned",
               link: "/docs/step-by-step/started-with-sshd-on-and-passwd-assigned.md",
             },
-            { text: "Add extra driver", link: "#" },
-            { text: "Customized script with PXE", link: "#" },
-            { text: "Screen session with PXE", link: "#" },
-            { text: "Burn Clonezilla live CD", link: "#" },
-            { text: "LinuxLive USB creator", link: "#" },
-            { text: "lite server", link: "#" },
-            { text: "lite server BT from dev", link: "#" },
-            { text: "ocs related command manpages", link: "#" },
-            { text: "Misc", link: "#" },
+            {
+              text: "Add extra driver",
+              link: "/docs/step-by-step/add-extra-driver.md",
+            },
+            {
+              text: "Customized script with PXE",
+              link: "/docs/step-by-step/customized-script-with-pxe.md",
+            },
+            {
+              text: "Screen session with PXE",
+              link: "/docs/step-by-step/screen-session-with-pxe.md",
+            },
+            {
+              text: "Burn Clonezilla live CD",
+              link: "/docs/step-by-step/burn-clonezilla-live-cd.md",
+            },
+            {
+              text: "LinuxLive USB creator",
+              link: "/docs/step-by-step/linuxlive-usb-creator.md",
+            },
+            {
+              text: "lite server",
+              link: "/docs/step-by-step/lite-server.md",
+            },
+            {
+              text: "lite server BT from dev",
+              link: "/docs/step-by-step/lite-server-bt-from-dev.md",
+            },
+            {
+              text: "ocs related command manpages",
+              link: "/docs/step-by-step/ocs-related-command-manpages.md",
+            },
+            {
+              text: "Misc",
+              link: "/docs/step-by-step/misc.md",
+            },
           ],
         },
       ],

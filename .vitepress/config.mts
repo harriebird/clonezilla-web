@@ -44,6 +44,9 @@ export default defineConfig({
       },
     ],
     logo: "/images/clonezilla-logo-small.png",
+    search: {
+      provider: "local",
+    },
   },
 
   cleanUrls: true,

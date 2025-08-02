@@ -61,8 +61,8 @@ const developers = [
       About Clonezilla
     </template>
     <template #lead>
-      The development of VitePress is guided by an international
-      team, some of whom have chosen to be featured below.
+      **TODO: Add more content here**
+        The development of Clonezilla is powered by these amazing people.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers :members="developers" />

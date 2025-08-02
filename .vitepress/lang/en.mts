@@ -19,6 +19,10 @@ export const enConfig = {
           link: "/docs/what-is-clonezilla.md",
         },
         {
+          text: "Clonezilla Live on USB flash drive or USB hard drive",
+          link: "/docs/liveusb.md",
+        },
+        {
           text: "Step-by-step Docs",
           link: "/docs/step-by-step/index.md",
           collapsed: false,

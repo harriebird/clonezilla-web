@@ -95,10 +95,5 @@ export const enConfig = {
         },
       ],
     },
-
-    footer: {
-      message: `From Taiwan to the World <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="var(--vp-c-red-3)" style="display: inline-block" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/></svg></span>`,
-      copyright: `<a href="https://free.nchc.org.tw/">Free Software Lab</a>, <a href="https://www.nchc.org.tw/">NCHC (National Center for High-Performance Computing)</a>`,
-    },
   },
 };

@@ -3,6 +3,7 @@ import DefaultTheme from "vitepress/theme";
 import { onMounted } from "vue";
 import { useRouter } from "vitepress";
 import mediumZoom from "medium-zoom";
+import Footer from "./components/Footer.vue";
 
 const { Layout } = DefaultTheme;
 const router = useRouter();
@@ -22,7 +23,11 @@ router.onAfterRouteChange = setupMediumZoom;
 </script>
 
 <template>
-  <Layout />
+  <Layout>
+    <template #layout-bottom>
+      <Footer />
+    </template>
+  </Layout>
 </template>
 
 <style>
